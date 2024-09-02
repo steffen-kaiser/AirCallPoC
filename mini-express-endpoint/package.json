@@ -1,0 +1,15 @@
+{
+  "name": "AirCall_PoC",
+  "version": "1.0.0",
+  "description": "Implementation of iot certificate mgmt application, generates basic auth credentials for getting device certificate (prevent lockout)",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "AGILITA AG, Steffen Kaiser",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,7 @@
+---
+applications:
+- name: AirCall_PoC
+  memory: 64M
+  buildpacks: 
+    - https://github.com/cloudfoundry/nodejs-buildpack
+  instances: 1
